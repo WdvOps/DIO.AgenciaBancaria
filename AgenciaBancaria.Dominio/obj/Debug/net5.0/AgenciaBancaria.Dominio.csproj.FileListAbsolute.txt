@@ -1,0 +1,11 @@
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.deps.json
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.dll
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\bin\Debug\net5.0\ref\AgenciaBancaria.Dominio.dll
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\bin\Debug\net5.0\AgenciaBancaria.Dominio.pdb
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.AssemblyInfoInputs.cache
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.AssemblyInfo.cs
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.csproj.CoreCompileInputs.cache
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.dll
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\ref\AgenciaBancaria.Dominio.dll
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.pdb
