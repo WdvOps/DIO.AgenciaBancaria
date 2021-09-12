@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace AgenciaBancaria.Dominio
 {
-    public class ContaBancaria
+    public abstract class ContaBancaria
     {
         public ContaBancaria(Cliente cliente)
         {
@@ -18,6 +19,42 @@ namespace AgenciaBancaria.Dominio
 
             Cliente = cliente ?? throw new Exception("Cliente deve ser informado.");
         }
+
+        public void Abrir(string senha)
+        {
+            SetaSenha(senha);
+
+            Situacao = SituacaoConta.Aberta;
+            DataAbertura = DateTime.Now;
+        }
+
+        private void SetaSenha(string senha)
+        {
+           senha = senha.ValidaStringVazia();
+
+            if (!Regex.IsMatch(senha, @"^(?=.*[a-z])(?=.*[0-9]).{6,}$"))
+            {
+                throw new Exception("Senha inválida.");
+            }
+
+            Senha = senha;
+        }
+
+        public virtual void Sacar(decimal valor, string senha)
+        {
+            if (Senha != senha)
+            {
+                throw new Exception("Senha inválida.");
+            }
+
+            if (Saldo < valor)
+            {
+                throw new Exception("Saldo insuficiente.");
+            }
+
+            Saldo -= valor;
+        }
+
         public int NumeroConta { get; init; }
         public int DigitoVerificador { get; init; }
         public decimal Saldo { get; protected set; }

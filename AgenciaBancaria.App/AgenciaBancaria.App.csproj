@@ -4,10 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <StartupObject>AgenciaBancaria.App.Program</StartupObject>
+    <ApplicationIcon />
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio.csproj" />
+    <ProjectReference Include="..\AgenciaBancaria.Dominio\AgenciaBancaria.Dominio.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

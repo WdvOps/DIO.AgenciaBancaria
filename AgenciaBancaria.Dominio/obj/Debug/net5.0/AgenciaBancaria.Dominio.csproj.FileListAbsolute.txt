@@ -9,3 +9,4 @@ D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5
 D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.dll
 D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\ref\AgenciaBancaria.Dominio.dll
 D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.pdb
+D:\Cursos\DIO\DIO.Dominio\AgenciaBancaria\AgenciaBancaria.Dominio\obj\Debug\net5.0\AgenciaBancaria.Dominio.csproj.AssemblyReference.cache
